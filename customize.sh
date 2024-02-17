@@ -7,7 +7,7 @@
 #
 DEVICE=`getprop ro.product.system.device`
 if [ $DEVICE = cepheus ]; then
-    echo " - Device is cepheus"
+    echo " - Device is X00TD"
     sleep 1
     echo " - Installing module"
     chmod 755 $MODPATH/service.sh
@@ -30,6 +30,6 @@ if [ $DEVICE = cepheus ]; then
   else
     echo " - Device is $DEVICE"
     sleep 1
-    echo " - This module for cepheus"
+    echo " - This module for X00TD"
     abort
 fi;
